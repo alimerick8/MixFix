@@ -1,0 +1,93 @@
+{
+  "identifier" : "A1B2C3D4",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "6670001003",
+      "localizations" : [
+        {
+          "description" : "Lifetime access to MixFix Plus features. Limited founding member offer.",
+          "displayName" : "Founding Member Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.mixfix.founding.lifetime",
+      "referenceName" : "Founding Member Lifetime",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6670000001",
+    "_developerTeamID" : "XXXXXXXXXX",
+    "_lastSynchronizedDate" : 749347200.0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21234567",
+      "localizations" : [
+
+      ],
+      "name" : "MixFix Plus",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6670001001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Ad-free, full wellness library, unlimited habits, custom reminders, busy week alerts.",
+              "displayName" : "MixFix Plus Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.mixfix.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "MixFix Plus Monthly",
+          "subscriptionGroupID" : "21234567",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6670001002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Best value! Ad-free, full wellness library, unlimited habits, custom reminders, busy week alerts.",
+              "displayName" : "MixFix Plus Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.mixfix.plus.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "MixFix Plus Annual",
+          "subscriptionGroupID" : "21234567",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
